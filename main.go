@@ -33,6 +33,8 @@ var (
 )
 
 func main() {
+	log.SetLevel(log.DebugLevel)
+
 	app := &cli.App{
 		Flags: []cli.Flag{
 			&cli.StringFlag{
