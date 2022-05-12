@@ -1,4 +1,4 @@
-module secrets-init
+module github.com/evandam/secrets-init
 
 go 1.14
 
